@@ -37,20 +37,22 @@ First, we need to create a resource group which is a container that holds Azure 
 Next we will create 2 virtual machines one running Windows 10 and the other running Ubuntu 20.04 LTS. To create a VM in Azure we search for "virtual machine" in the search bar at the top. Create an "Azure virtual machine" selecting the resource group we made earlier. You can name it however you like, and select the Windows 10 Pro thats free tier eligible for our purposes. Also make sure you remember the availability zone and set an appropriate username/password for this VM; this will come in handy later.
 </p>
 <br />
-
 <p>
 <img src="https://i.imgur.com/RLym8dW.png" height="80%" width="80%" alt="VM1"/>
 </p>
-
 <p>
- We don't have to worry about any other setting except Network for now let it auto-create a new Virtual Network, Subnet and IP.
+ We don't have to worry about any other setting except Network for now let it auto-create a new Virtual Network, Subnet and IP. Now just create and review to finilize and create the VM.
 </p>
 <br />
-
 <p>
 <img src="https://i.imgur.com/GQz1yuF.png" height="80%" width="80%" alt="VM1-Network"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+<p>
+Now lets create the Ubuntu VM following the same steps making sure the VM is in the same resource group and avaliableity zone. As well as the same Virtual Netowrk and Subnet. You can go back to the resource group page and you will see insde our created resource group there is a VM running as well as a newely created resource group.
 </p>
 <br />
+<p>
+<img src="https://i.imgur.com/nfqaujY.png" height="80%" width="80%" alt="VM1-Network"/>
+</p>

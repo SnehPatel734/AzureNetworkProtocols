@@ -41,18 +41,35 @@ Next we will create 2 virtual machines one running Windows 10 and the other runn
 <img src="https://i.imgur.com/RLym8dW.png" height="80%" width="80%" alt="VM1"/>
 </p>
 <p>
- We don't have to worry about any other setting except Network for now let it auto-create a new Virtual Network, Subnet and IP. Now just create and review to finilize and create the VM.
+We don't have to worry about any other setting except Network for now let it auto-create a new Virtual Network, Subnet and IP. Now just create and review to finilize and create the VM.
 </p>
 <br />
 <p>
 <img src="https://i.imgur.com/GQz1yuF.png" height="80%" width="80%" alt="VM1-Network"/>
 </p>
 <p>
-
 <p>
-Now lets create the Ubuntu VM following the same steps making sure the VM is in the same resource group and avaliableity zone. As well as the same Virtual Netowrk and Subnet. You can go back to the resource group page and you will see insde our created resource group there is a VM running as well as a newely created resource group.
+Now lets create the Ubuntu VM following the same steps making sure the VM is in the same resource group and availability zone. As well as the same Virtual Netowrk and Subnet. You can go back to the resource group page and you will see inside our created resource group, there is a VM running as well as a newly created resource group.
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/nfqaujY.png" height="80%" width="80%" alt="VM1-Network"/>
+<img src="https://i.imgur.com/4COApF3.png" height="80%" width="80%" alt="VM1-Network"/>
 </p>
+<p>
+If you did everything correctly your network should look like this.
+</p>
+<br />
+<p>
+<img src="https://i.imgur.com/wTgnwjk.png" height="80%" width="80%" alt="VM1-Network"/>
+</p>
+<p>
+Now we RDP(Remote Desktop Protocol) into the Windows vm and start the important part of this Lab, network communication between the two VM's.
+</p>
+<br />
+<p>
+Using Remote Desktop COnnection that is built into windows you cna take the public IP of your Windows VM and connect using the username and password you created. 
+</p>
+<br />
+<img src="https://i.imgur.com/G5S3g3Y.png" height="80%" width="80%" alt="VM1-Network"/>
+</p>
+<p>

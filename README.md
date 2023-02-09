@@ -34,7 +34,7 @@ First we need to creare a resource group which is a container that holds Azure r
 <img src="https://i.imgur.com/t3HwTEo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next we will create 2 virtual machines one running Windows 10 and the other running Ubuntu 20.04 LTS. To create a VM in Azure we search up virtual machine in the search bar at the top. Next we will create an "Azure virtual machine" selecting the resource group we made earlier. You can name it however you like, and selecting the Windows 10 Pro thats free tier eligible for our purposes. Also make sure you remember the availability zone the VM is in we will be selecting the same zone for the Ubuntu VM this will come in handy later. 
 </p>
 <br />
 
